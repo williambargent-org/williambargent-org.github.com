@@ -1,28 +1,48 @@
-# Change these first
+# Owner
 owner: williambargent-org # Your GitHub username
 repo: williambargent-org.github.com # Your Github repository name
 
-# Add your sites here
+# Sites
 sites:
   - name: Website
     url: https://williambargent.co.uk
+    icon: https://assets.williambargent.co.uk/favicon/favicon.ico
+    maxResponseTime: 3000
   - name: WeatherMX
     url: https://weathermx.williambargent.co.uk
+    icon: https://weathermx.williambargent.co.uk/assets/img/logo/favicon.ico
+    maxResponseTime: 3000
+  - name: Identity
+    url: https://identity.williambargent.co.uk
+    icon: https://assets.williambargent.co.uk/favicon/favicon.ico
+    maxResponseTime: 3000
+  - name: Gallery
+    url: https://gallery.williambargent.co.uk
+    icon: https://assets.williambargent.co.uk/favicon/favicon.ico
+    maxResponseTime: 3000
 
+# Options
 status-website:
-  # Add your custom domain below, or remove the next line if you don't have a domain
-  #cname: demo.upptime.js.org
-  # Uncomment the following line if you don't have a custom domain and add your repo name
+  cname: status.williambargent.co.uk
   baseUrl: /
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Status - William Bargent
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [Github repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://assets.williambargent.co.uk/images/wb/logos/full.min.png
+  introTitle: "William Bargent Service Status"
+  introMessage: This site will automatically update with unplanned outages which detected. If you this there is an error, [click here](https://williambargent.co.uk/help).
   navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    - title: Home
+      href: https://williambargent.co.uk
+    - title: WeatherMX
+      href: https://weathermx.williambargent.co.uk
+  css: "nav div:nth-child(2) { display: none }"
+  skipDescriptionUpdate: true
+  skipTopicsUpdate: true
+  skipHomepageUpdate: true
+  commitMessages:
+    commitAuthorName: "Upptime Bot"
+    commitAuthorEmail: "upptime@williambargent.co.uk"
+  commitMessages:
+    readmeContent: "Update summary in README [skip ci] [upptime]"
+    summaryJson: "Update status summary [skip ci] [upptime]"
+    statusChange: "$SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
+    graphsUpdate: "Update graphs [skip ci] [upptime]"
