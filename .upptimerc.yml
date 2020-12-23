@@ -36,7 +36,7 @@ status-website:
       href: https://weathermx.williambargent.co.uk
   links:
     - rel: stylesheet
-      href: https://raw.githubusercontent.com/williambargent-org/Global-Asset-Repository/main/status/css/overrides.css
+      href: https://assets.williambargent.co.uk/global/status/css/overrides.css
   skipDescriptionUpdate: true
   skipTopicsUpdate: true
   skipHomepageUpdate: true
