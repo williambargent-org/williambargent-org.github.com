@@ -27,21 +27,19 @@ status-website:
   baseUrl: /
   name: Status - William Bargent
   logoUrl: https://assets.williambargent.co.uk/images/wb/logos/full.min.png
-  introTitle: "William Bargent Service Status"
-  introMessage: This site will automatically update with unplanned outages which detected. If you this there is an error, [click here](https://williambargent.co.uk/help).
+  introTitle: "Service Status"
+  introMessage: "This site will automatically update with outages."
   navbar:
     - title: Home
       href: https://williambargent.co.uk
     - title: WeatherMX
       href: https://weathermx.williambargent.co.uk
-  css: "nav div:nth-child(2) { display: none }"
+  links:
+    - rel: stylesheet
+      href: https://raw.githubusercontent.com/williambargent-org/Global-Asset-Repository/main/status/css/overrides.css
   skipDescriptionUpdate: true
   skipTopicsUpdate: true
   skipHomepageUpdate: true
   commitMessages:
     commitAuthorName: "Upptime Bot"
     commitAuthorEmail: "upptime@williambargent.co.uk"
-    readmeContent: "Update summary in README [skip ci] [upptime]"
-    summaryJson: "Update status summary [skip ci] [upptime]"
-    statusChange: "$SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
-    graphsUpdate: "Update graphs [skip ci] [upptime]"
