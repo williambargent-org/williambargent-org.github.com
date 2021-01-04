@@ -7,11 +7,15 @@ sites:
   - name: Website
     url: https://williambargent.co.uk
     icon: https://assets.williambargent.co.uk/favicon/favicon.ico
-    maxResponseTime: 3000
+    maxResponseTime: 1000
+  - name: Blog
+    url: https://williambargent.co.uk/blog/
+    icon: https://assets.williambargent.co.uk/favicon/favicon.ico
+    maxResponseTime: 1000
   - name: WeatherMX
     url: https://weathermx.williambargent.co.uk
     icon: https://weathermx.williambargent.co.uk/assets/img/logo/favicon.ico
-    maxResponseTime: 3000
+    maxResponseTime: 1000
   - name: Identity
     url: https://identity.williambargent.co.uk/idp/logout.php
     expectedStatusCodes:
@@ -20,11 +24,11 @@ sites:
       - 301
       - 200
     icon: https://assets.williambargent.co.uk/favicon/favicon.ico
-    maxResponseTime: 3000
+    maxResponseTime: 1000
   - name: Gallery
     url: https://gallery.williambargent.co.uk
     icon: https://assets.williambargent.co.uk/favicon/favicon.ico
-    maxResponseTime: 3000
+    maxResponseTime: 1000
 
 # Options
 status-website:
