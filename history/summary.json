@@ -76,19 +76,19 @@
     "url": "https://gallery.williambargent.co.uk",
     "icon": "https://assets.williambargent.co.uk/favicon/favicon.ico",
     "slug": "gallery",
-    "status": "degraded",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 695,
-    "timeDay": 828,
-    "timeWeek": 675,
-    "timeMonth": 695,
-    "timeYear": 695,
+    "status": "up",
+    "uptime": "99.83%",
+    "uptimeDay": "97.66%",
+    "uptimeWeek": "99.67%",
+    "uptimeMonth": "99.83%",
+    "uptimeYear": "99.83%",
+    "time": 698,
+    "timeDay": 805,
+    "timeWeek": 681,
+    "timeMonth": 698,
+    "timeYear": 698,
     "dailyMinutesDown": {
-      "2021-01-05": 0
+      "2021-01-05": 34
     }
   }
 ]
