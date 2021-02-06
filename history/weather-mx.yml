@@ -1,7 +1,7 @@
 url: https://weathermx.williambargent.co.uk
-status: degraded
+status: up
 code: 200
-responseTime: 15581
-lastUpdated: 2021-02-06T23:51:03.167Z
+responseTime: 453
+lastUpdated: 2021-02-06T23:57:26.070Z
 startTime: Tue Dec 22 2020 18:35:21 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
