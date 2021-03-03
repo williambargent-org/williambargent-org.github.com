@@ -1,7 +1,7 @@
 url: https://identity.williambargent.co.uk/idp/logout.php
-status: down
+status: degraded
 code: 403
-responseTime: 57
-lastUpdated: 2021-03-02T23:11:27.879Z
+responseTime: 1220
+lastUpdated: 2021-03-03T10:47:36.913Z
 startTime: Tue Dec 22 2020 19:25:21 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
